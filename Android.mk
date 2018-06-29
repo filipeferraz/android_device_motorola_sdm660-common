@@ -23,6 +23,7 @@
 # *not* include it on all devices, so it is safe even with hardware-specific
 # components.
 
+#add comment to revert and push cr-6.1 branch
 LOCAL_PATH := $(call my-dir)
 
 ifneq ($(filter payton evert, $(TARGET_DEVICE)),)
